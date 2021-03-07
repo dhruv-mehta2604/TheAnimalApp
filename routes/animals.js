@@ -11,7 +11,7 @@ router.get("/", function(req, res){
        if(err){
            console.log(err);
        } else {
-          res.render("Animals/index",{animals:allAnimals});
+          res.render("animals/index",{animals:allAnimals});
        }
     });
 });
